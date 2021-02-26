@@ -1,0 +1,24 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57804",
+      "sslPort": 44373
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger/",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ApiLocalidades": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/",
+        "ClienteConnection": "Data Source=DESKTOP-EJ3792F\\SQLEXPRESS;Initial Catalog=Clientes;Integrated Security=True",
+        "ApiCep": "https://viacep.com.br/ws/"
+      }
+    }
+  }
+}

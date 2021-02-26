@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Dados.Cadastrais.Test": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ApiLocalidades": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/",
+        "ClienteConnection": "Data Source=DESKTOP-EJ3792F\\\\SQLEXPRESS;Initial Catalog=Clientes;Integrated Security=True"
+      }
+    }
+  }
+}
